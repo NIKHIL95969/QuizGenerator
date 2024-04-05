@@ -70,7 +70,7 @@ const Quiz = ({ questions }) => {
             <button className="mt-4 bg-red-400 rounded-md p-2 font-medium" onClick={nextQuestion}>Next Question</button>
           )}
           {currentQuestionIndex + 1 === questions.length && (
-            <button onClick={() => setQuizCompleted(true)}>Finish Quiz</button>
+            <button className="mt-4 bg-red-400 rounded-md p-2 font-medium" onClick={() => setQuizCompleted(true)}>Finish Quiz</button>
           )}
         </div>
       )}
